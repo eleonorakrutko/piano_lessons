@@ -322,10 +322,12 @@ input[type=submit]{
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    margin-left: 60px;
-    margin-right: 60px;
     margin-top: 50px;
     transition: 0.4s;
+}
+.submit{
+    display: flex;
+    justify-content: center;
 }
 .social{
     text-align: center;
