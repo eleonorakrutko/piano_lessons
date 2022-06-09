@@ -325,12 +325,10 @@ input[type=submit]{
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-top: 50px;
     transition: 0.4s;
-}
-.submit{
-    display: flex;
-    justify-content: center;
 }
 .social{
     text-align: center;
@@ -450,6 +448,21 @@ input[type=submit]:hover{
         padding: 5px;
     }
 
+    .section{
+        padding: 120px 0;
+    }
+    .img1{
+       height: 264px;
+    }
+    .achievementsInfo{
+        margin: 0 30px;
+    }
+    .educationInfo{
+        margin: 0 30px;
+    }
+    .img2{
+        height: 297px;
+    }
     .skills1,.skills2,.skills3,.skills4,.skills5,.skills6{
         margin: 5px 0;
     }
