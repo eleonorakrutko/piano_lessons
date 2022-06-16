@@ -358,6 +358,25 @@ input[type=submit]:hover{
     color: #000;
     outline: 1px solid #000;
 }
+
+.maket{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    background-color: #000;
+}
+.maket a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+.maket a:hover{
+    color: #939393;
+    font-size: 26px;
+}
+
 @media (max-width: 1440px){
     body{
         padding: 0;
