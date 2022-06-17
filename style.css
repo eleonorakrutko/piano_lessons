@@ -88,7 +88,7 @@ nav a{
 }
 .img1{
     height: 477px;
-    background-image: url(img/Rectangle\ 80.png);
+    background-image: url(img/Rectangle80.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -106,7 +106,7 @@ nav a{
 }
 .img2{
     height: 297px;
-    background-image: url(img/Rectangle\ 99.png);
+    background-image: url(img/Rectangle99.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -121,11 +121,15 @@ nav a{
 .achievements ul li{
   margin-left: 25px;
 }
- .section p, .achievements ul{
+ .section p{
     font-size: 20px;
     margin-top: 20px;
     line-height: 24px;
     max-width: 580px;
+}
+
+.achievements ul{
+    font-size: 20px;
 }
 
 .skills{
@@ -171,6 +175,9 @@ nav a{
     padding-bottom: 40px;
     text-transform: uppercase;
     font-size: 35px;
+}
+.video video{
+    width: 100%;
 }
 .more{
     display: block;
