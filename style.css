@@ -43,8 +43,8 @@ nav a{
     padding-top: 100px;
     padding-bottom: 40px;
 }
-.info img{
-    max-width: 100%;
+.infoImg img{
+    object-fit: cover;
 }
 
 .infoAnikina{
@@ -114,6 +114,7 @@ nav a{
 }
 .achievementsInfo{
     order: 2;
+    margin: 0 auto;
 }
 .education{
     padding-right: 65px;
@@ -418,8 +419,11 @@ input[type=submit]:hover{
     .achievementsInfo{
         order: 1;
     }
-    .section p, .achievements ul, .achievements li{
+    .section p{
         margin: 20px auto;
+    }
+    .section p:nth-child(5){
+        margin: 20px auto 0 auto;
     }
     .section h2{
         text-align: center;
@@ -444,6 +448,7 @@ input[type=submit]:hover{
     nav a, .navSecond a{
         font-size: 16px;
     }
+    
 }
 
 @media (max-width: 710px){
