@@ -43,10 +43,14 @@ nav a{
     padding-top: 100px;
     padding-bottom: 40px;
 }
-.infoImg img{
-    object-fit: cover;
-}
 
+.infoImg{
+    height: 462px;
+    background-image: url(img/Rectangle93.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .infoAnikina{
    margin: 0 auto;
     width: 420px;
@@ -477,6 +481,10 @@ input[type=submit]:hover{
         justify-content: center;
         width: 100%;
         padding: 5px;
+    }
+    .infoImg{
+        height: 290px;
+        background-position-x: 85%;
     }
 
     .section{
