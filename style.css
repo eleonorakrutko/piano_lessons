@@ -125,6 +125,7 @@ nav a{
 }
 .achievements ul li{
   margin-left: 25px;
+  font-size: 20px;
 }
  .section p{
     font-size: 20px;
@@ -132,11 +133,6 @@ nav a{
     line-height: 24px;
     max-width: 580px;
 }
-
-.achievements ul{
-    font-size: 20px;
-}
-
 .skills{
     border-bottom: 10px solid #000;
 }
