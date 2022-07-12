@@ -71,11 +71,12 @@ nav a{
     display: flex;
     justify-content: center;
     font-size: 20px;
+    background-color: #FF7F22CC;
+    border: 2px dashed black;
     text-transform: uppercase;
-    color: #fff;
-    background-color: #000;
+    color: #000;
     margin: 50px auto;
-    padding: 20px 60px;
+    border-radius: 50%;
 }
 
 .section{
@@ -92,7 +93,7 @@ nav a{
 }
 .img1{
     height: 477px;
-    background-image: url(img/Rectangle80.png);
+    background-image: url(img/Rectangle1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -110,7 +111,7 @@ nav a{
 }
 .img2{
     height: 297px;
-    background-image: url(img/Rectangle99.png);
+    background-image: url(img/Rectangle2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -133,6 +134,7 @@ nav a{
     line-height: 24px;
     max-width: 580px;
 }
+
 .skills{
     border-bottom: 10px solid #000;
 }
@@ -145,25 +147,19 @@ nav a{
     font-size: 35px;
 }
 .yourSkills{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    padding: 100px 50px 0 50px;
 }
-.skills1,.skills2,.skills3,.skills4,.skills5,.skills6 {
-    width: 420px;
-    height: 420px;
-    background-color: #000;
-    color: #fff;
+.yourSkills li{
+    display: inline-block;
+    margin-bottom: 80px;
+    list-style-type: none;
     font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-    padding: 0 50px;
-    margin: 20px;
-    display: flex;
-    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
 }
-.skills5,.skills6 {
-    margin-bottom: 100px;
+.submit{
+    text-align: center;
+    margin-bottom: 120px;
 }
 
 .student{
@@ -179,6 +175,7 @@ nav a{
 }
 .video video{
     width: 100%;
+    border-radius: 20px;
 }
 .more{
     display: block;
@@ -197,14 +194,14 @@ nav a{
     border-radius: 20px;
     transition: 0.4s;
 }
+
 .price{
     border-bottom: 10px solid #000000;
 }
 .price h2{
     width: 100%;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding: 120px 0 60px 0;
     text-transform: uppercase;
     font-size: 35px;
 }
@@ -215,11 +212,11 @@ nav a{
     flex-wrap: wrap;
 }
 
-.price1, .price2, .price3{
+.price1, .price3{
     width: 420px;
     height: 420px;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid #000;
     padding: 0 30px;
     padding-top: 100px;
     margin: 20px;
@@ -228,8 +225,27 @@ nav a{
     align-items: center;
     justify-content: center;
 }
-.time{
-   border-bottom: 1px solid #fff;
+.price2{
+    width: 420px;
+    height: 420px;
+    background-color: #000;
+    color: #fff;
+    padding: 0 30px;
+    padding-top: 100px;
+    margin: 20px;
+    border-radius: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time2{
+    border-bottom: 1px solid #fff;
+    font-size: 100px;
+    font-weight: 700;
+}
+.time1, .time3{
+   border-bottom: 1px solid #000;
    font-size: 100px;
    font-weight: 700;
 }
@@ -260,8 +276,9 @@ nav a{
 .ticket1{
     width: 420px;
     height: 420px;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
     padding: 0 30px;
     margin: 20px;
     display: flex;
@@ -269,7 +286,7 @@ nav a{
     align-items: center; 
 }
 .ticketCount{
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     font-size: 40px;
     font-weight: 700;
     padding-top: 120px;
@@ -286,10 +303,11 @@ nav a{
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
+
 .contact{
     border-bottom: 10px solid #000;
 }
-
 .contact h2{
     width: 100%;
     text-align: center;
@@ -298,16 +316,15 @@ nav a{
     text-transform: uppercase;
     font-size: 35px;
 }
-
 .contact2 {
     width: 400px;
     padding: 20px;
-    /* margin: 0 auto; */
 }
 .contact{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 input[type=text] {
     padding: 15px 0;
@@ -327,14 +344,13 @@ input[type=text]::placeholder{
 }
 input[type=submit]{
     padding: 25px 60px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 20px;
+    background-color: #FF7F22CC;
+    border: 2px dashed black;
+    color: #000;
+    border-radius: 50%;
+    padding: 100px 50px;
     font-size: 20px;
-    line-height: 24px;
     text-transform: uppercase;
-    margin-left: 60px;
-    margin-right: 60px;
     margin-top: 50px;
     transition: 0.4s;
 }
@@ -367,23 +383,6 @@ input[type=submit]:hover{
     outline: 1px solid #000;
 }
 
-.maket{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 50px;
-    background-color: #000;
-}
-.maket a{
-    text-decoration: none;
-    color: #fff;
-    transition: 0.4s;
-    letter-spacing: 2px;
-}
-.maket a:hover{
-    color: #939393;
-    font-size: 26px;
-}
 
 @media (max-width: 1440px){
     body{
@@ -433,44 +432,24 @@ input[type=submit]:hover{
         flex-direction: column;
          border-top: 10px solid #000;
     }
-    .skills4,.skills5,.skills6{
-        margin-bottom: 20px;
-    }
-    .skills6{
-        margin-bottom: 100px;
-    }
 }
 
 @media (max-width: 800px){
-    .info h1, .infoAnikina h2, .section h2, .achievements h2, .skills h2, .student h2, .price h2 {
-        font-size: 30px;
-    }
     nav a, .navSecond a{
         font-size: 16px;
     }
-    
+    .yourSkills li{
+        font-size: 26px;
+    }
 }
 
-@media (max-width: 710px){
-    nav a, .navSecond a{
-        font-size: 12px;
-    }
-    .price p:nth-child(odd), .ticketInfo p{
-        font-size: 14px;
-    }
-    
-}
 @media (max-width: 480px){
     body{
         padding: 0;
     }
-    .navSecond{
-        max-width: 100%;
-        margin: 0 auto;
-    }
     .navSecond a, nav a{
         padding: 25px 10px;
-    }
+    } 
     .infoAnikina{
         display: flex;
         flex-direction: column;
@@ -498,11 +477,12 @@ input[type=submit]:hover{
     .img2{
         height: 297px;
     }
-    .skills1,.skills2,.skills3,.skills4,.skills5,.skills6{
-        margin: 10px 0;
+    .yourSkills{
+        padding-top: 70px;
     }
-    .skills6{
-        margin-bottom: 100px;
+    .yourSkills li{
+        font-size: 18px;
+        margin-bottom: 25px;
     }
     .more a{
         font-size: 15px;
@@ -514,10 +494,11 @@ input[type=submit]:hover{
     }
     .price1, .price2, .price3{
         width: 100%;
-        margin: 5px 0;
+        margin: 10px 0;
     }
-    .time{
+    .time1, .time2, .time3{
         text-align: center;
+        font-size: 70px;
     }
     .ticket{
         display: flex;
@@ -525,15 +506,12 @@ input[type=submit]:hover{
     }
     .ticket1{
         width: 100%;
-        margin: 5px 0;
+        margin: 10px 0;
     }
     .ticketCount{
-        font-size: 38px;
+        font-size: 34px;
     }
-    .contact2{
-        padding: 30px;
-    }
-    input[type=submit]{
-        padding: 15px 60px;
+    .submit{
+        margin-bottom: 80px;
     }
 }
